@@ -16,7 +16,7 @@ def parse_args():
     parser.add_argument("-n", "--num_cols", type=int, default=0,
                         help="number of character for output's width (default: maximum resolution)")
     parser.add_argument("-c","--characters", type=str ,help="characters to include (default: ASCII)", 
-                        default="!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~")
+                        default="!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~")
     args = parser.parse_args()
     return args
 
